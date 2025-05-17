@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 17, 2025, 1:06:34 AM
+    Author     : luanp
+*/
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container principal */
+.container-formulario {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.titulo-formulario {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+/* Campos do formulário */
+.formulario-funcionario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario-funcionario input[type="text"],
+.formulario-funcionario input[type="email"],
+.formulario-funcionario input[type="number"],
+.formulario-funcionario input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: border 0.3s ease;
+}
+
+.formulario-funcionario input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* Botões */
+.botao-formulario {
+  width: 100%;
+  padding: 14px;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-formulario:hover {
+  background-color: #2980b9;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .container-formulario {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+
